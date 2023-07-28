@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
     <title>AluraBooks</title>
@@ -46,6 +48,102 @@
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos lançamentos</h2>
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot da alura books"></div>
+                <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre liderança em design da alura books"></div>
+                <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre Javascript assertivo da alura books"></div>
+                <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro sobre guia Front-End da alura books"></div>
+                <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre Portugol da alura books"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+        <div class="card">
+            <div class="card__descrição">
+                <div class="descrição">
+                    <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descrição__titulo-livro">Angular 11 e Firebase</h2>
+                    <p class="descrição__texto">Construindo aplicação integrada com a plataforma do Google</p>
+                </div>
+                <img src="img/Angular.svg" alt="Imagem logo do Angular" class="descrição__imagem">
+            </div>
+
+            <div class="card__botões">
+                <ul class="botões">
+                    <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                    <li class="botões__item"><img src="img/Sacola.svg" alt="Adicionar no carrinho de compras  "></li>
+                </ul>
+                <a href="#" class="botões__ancora">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+        <!-- ************************************** -->
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais vendidos</h2>
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot da alura books"></div>
+                    <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre liderança em design da alura books"></div>
+                    <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre Javascript assertivo da alura books"></div>
+                    <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro sobre guia Front-End da alura books"></div>
+                    <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre Portugol da alura books"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+            <div class="card">
+                <div class="card__descrição">
+                    <div class="descrição">
+                        <svg class="descrição__estrela" xmlns="http://www.w3.org/2000/svg" width="91" height="15" viewBox="0 0 91 15" fill="none">
+                            <path d="M7.5 0L9.18386 5.18237H14.6329L10.2245 8.38525L11.9084 13.5676L7.5 10.3647L3.09161 13.5676L4.77547 8.38525L0.367076 5.18237H5.81614L7.5 0Z" fill="#EB9B00"/>
+                            <path d="M26.5 0L28.1839 5.18237H33.6329L29.2245 8.38525L30.9084 13.5676L26.5 10.3647L22.0916 13.5676L23.7755 8.38525L19.3671 5.18237H24.8161L26.5 0Z" fill="#EB9B00"/>
+                            <path d="M45.5 0L47.1839 5.18237H52.6329L48.2245 8.38525L49.9084 13.5676L45.5 10.3647L41.0916 13.5676L42.7755 8.38525L38.3671 5.18237H43.8161L45.5 0Z" fill="#EB9B00"/>
+                            <path d="M64.5 0L66.1839 5.18237H71.6329L67.2245 8.38525L68.9084 13.5676L64.5 10.3647L60.0916 13.5676L61.7755 8.38525L57.3671 5.18237H62.8161L64.5 0Z" fill="#EB9B00"/>
+                            <path d="M83.5 0L85.1839 5.18237H90.6329L86.2245 8.38525L87.9084 13.5676L83.5 10.3647L79.0916 13.5676L80.7755 8.38525L76.3671 5.18237H81.8161L83.5 0Z" fill="#EB9B00"/>
+                        </svg>
+                        <h3 class="descrição__titulo title_juliana">Autora do Mês</h3>
+                        <h2 class="descrição__titulo-livro">Juliana Agarikov</h2>
+                        <p class="descricão_texto">Analista de sistemas <br> e escritora, Juliana é especialista em <br> Front-End.</p>
+                    </div>
+                    <img src="img/Juliana Agarikov.svg" alt="Foto do Juliana Agarikov">
+                </div>
+            
+            <div class="card__botões">
+                <ul class="botões">
+                    <li class="botões_item"><img src="img/Favoritos.svg" alt=""></li>
+                    <li class="botões_item"><img src="img/Sacola.svg" alt=""></li>
+                </ul>
+                <a href="#" class="botões__ancora">Saiba mais</a>
+            </div>
+            </div>
+    </section>
+
     
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            }
+        });
+    </script>
 </body>
 </html>
