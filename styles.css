@@ -12,8 +12,10 @@
     --laranja: #EB9B00;
     --azul-degrade: linear-gradient(160deg, #002F52 0%, #326589 100%);
     --azul: #002F52;
+    --preto : #000000;
 
-    --fonte-principal: 'Poppins', sans-serif;;
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Josefin Sans', sans-serif;;
 }
 
 body {
