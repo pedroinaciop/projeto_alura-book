@@ -1,5 +1,5 @@
 # AluraBook
-[![NPM](https://img.shields.io/npm/l/react)]() 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/pedroinaciop/projeto-alura-book/blob/main/LICENSE) 
 
 # Sobre o projeto
 
