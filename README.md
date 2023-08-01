@@ -15,7 +15,7 @@ Projeto AluraBook feito no Curso da Alura com foco em responsibilidade e mobile-
 ![Web 2](https://github.com/pedroinaciop/projeto-alura-book/blob/main/img/web-design-2.png)
 
 # Tecnologias utilizadas
-[![Minhas Habilidades](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
+[![Minhas Habilidades](https://skillicons.dev/icons?i=html,css,swift)](https://skillicons.dev)
 
 # Autor
 
