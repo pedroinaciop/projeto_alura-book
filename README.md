@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-https://pedroinaciop.github.io/projeto-alura-book/
+https://pedroinaciop.github.io/projeto_alura-book/
 
 Projeto AluraBook feito no Curso da Alura com foco em responsibilidade e mobile-first.
 
